@@ -1,0 +1,46 @@
+@import "../../styles/shared.scss";
+
+.root {
+  position: relative;
+  min-height: 100vh;
+  background: $gray;
+  overflow-x: hidden;
+
+  .hero {
+    position: relative;
+
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-image: url("../../assets/images/trophy.webp");
+    background-attachment: fixed;
+
+    background-size: cover;
+    background-position: 40%;
+    width: 100vw;
+    height: 100vh;
+
+    @include media-tablet {
+      height: 90vh;
+      background-position: 35%;
+    }
+  }
+
+  .history {
+    position: relative;
+    padding: 0 10px;
+
+    @include media-tablet {
+      padding: 0 10px;
+    }
+    @include media-desktopMd {
+      padding: 0 50px;
+    }
+
+    .title {
+      display: flex;
+      justify-content: center;
+      margin: 50px 0 0 0;
+      font-size: 40px;
+    }
+  }
+}

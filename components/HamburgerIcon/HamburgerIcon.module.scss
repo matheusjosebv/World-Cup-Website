@@ -1,0 +1,63 @@
+@import "../../styles/shared.scss";
+
+.root {
+  display: grid;
+  place-items: center;
+  margin: 0;
+  padding: 0;
+
+  &.clicked {
+    .wrapper {
+      span {
+        background: red;
+      }
+    }
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 30px;
+    cursor: pointer;
+
+    span {
+      background: $black;
+      border-radius: 10px;
+      height: 3px;
+      margin: 3px 0;
+      transition: 0.3s cubic-bezier(0.3, 0, 0, 1);
+
+      &:nth-of-type(1) {
+        width: 50%;
+      }
+
+      &:nth-of-type(2) {
+        width: 100%;
+      }
+
+      &:nth-of-type(3) {
+        width: 75%;
+      }
+    }
+
+    input[type="checkbox"] {
+      display: none;
+    }
+
+    input[type="checkbox"]:checked ~ span:nth-of-type(1) {
+      transform-origin: bottom;
+      transform: rotatez(45deg) translate(3px, 0px);
+    }
+
+    input[type="checkbox"]:checked ~ span:nth-of-type(2) {
+      transform-origin: top;
+      transform: rotatez(-45deg);
+    }
+
+    input[type="checkbox"]:checked ~ span:nth-of-type(3) {
+      transform-origin: bottom;
+      width: 50%;
+      transform: translate(13px, -4.5px) rotatez(45deg);
+    }
+  }
+}
