@@ -1,0 +1,17 @@
+@import "../../styles/shared.scss";
+
+.root {
+  position: fixed;
+  z-index: -1;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 110vh;
+  transform: translate3d(0px, 10%, 0px);
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  filter: blur(2px) brightness(1) saturate(1) contrast(0.75);
+}

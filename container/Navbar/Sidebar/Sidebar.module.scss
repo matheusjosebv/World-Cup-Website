@@ -1,0 +1,47 @@
+@import "../../../styles/shared.scss";
+
+.root {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  background: var(--color2);
+  width: 100vw;
+  height: 100vh;
+  transform-origin: 0 0;
+  transition: transform 0.75s $sidebar-exit, box-shadow 0.75s $sidebar-exit;
+
+  transform: translate(-110vw, 0);
+
+  @include media-tablet {
+    transform: translate(-425px, 0);
+    width: 400px;
+  }
+
+  &.show {
+    transform: translate(0, 0);
+    transition: transform 0.75s $sidebar-entry, box-shadow 0.75s $sidebar-entry;
+    box-shadow: 0 0.3rem 4rem #000;
+  }
+
+  .routes {
+    margin-top: 85px;
+
+    .route {
+      font-size: 24px;
+      font-weight: 400;
+      margin: 25px 0 0 15px;
+      text-transform: uppercase;
+      color: var(--color3);
+
+      &:hover {
+        font-weight: 700;
+        cursor: pointer;
+      }
+
+      @include media-tablet {
+        font-size: 22px;
+      }
+    }
+  }
+}

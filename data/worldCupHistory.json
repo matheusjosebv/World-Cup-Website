@@ -4,146 +4,167 @@
     "img": "/images/champions-national-teams/uruguay-30.webp",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     "titles": [1930],
-    "edition": 1930
+    "edition": 1930,
+    "gender": "male"
   },
   {
     "country": "Italia",
     "img": "/images/champions-national-teams/italy-34.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     "titles": [1934],
-    "edition": 1934
+    "edition": 1934,
+    "gender": "female"
   },
   {
     "country": "Italia",
     "img": "/images/champions-national-teams/italy-38.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     "titles": [1934, 1938],
-    "edition": 1938
+    "edition": 1938,
+    "gender": "female"
   },
   {
     "country": "Uruguai",
     "img": "/images/champions-national-teams/uruguay-50.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     "titles": [1930, 1950],
-    "edition": 1950
+    "edition": 1950,
+    "gender": "male"
   },
   {
     "country": "Alemanha",
     "img": "/images/champions-national-teams/germany-54.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     "titles": [1954],
-    "edition": 1954
+    "edition": 1954,
+    "gender": "female"
   },
   {
     "country": "Brasil",
     "img": "/images/champions-national-teams/brazil-58.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     "titles": [1958],
-    "edition": 1958
+    "edition": 1958,
+    "gender": "male"
   },
   {
     "country": "Brasil",
     "img": "/images/champions-national-teams/brazil-62.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     "titles": [1958, 1962],
-    "edition": 1962
+    "edition": 1962,
+    "gender": "male"
   },
   {
     "country": "Inglaterra",
     "img": "/images/champions-national-teams/england-66.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     "titles": [1],
-    "edition": 1966
+    "edition": 1966,
+    "gender": "female"
   },
   {
     "country": "Brasil",
     "img": "/images/champions-national-teams/brazil-70.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     "titles": [1958, 1962, 1970],
-    "edition": 1970
+    "edition": 1970,
+    "gender": "male"
   },
   {
     "country": "Alemanha",
     "img": "/images/champions-national-teams/germany-74.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     "titles": [1954, 1974],
-    "edition": 1974
+    "edition": 1974,
+    "gender": "female"
   },
   {
     "country": "Argentina",
     "img": "/images/champions-national-teams/argentina-78.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     "titles": [1978],
-    "edition": 1978
+    "edition": 1978,
+    "gender": "female"
   },
   {
     "country": "Italia",
     "img": "/images/champions-national-teams/italy-82.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     "titles": [1934, 1938, 1982],
-    "edition": 1982
+    "edition": 1982,
+    "gender": "female"
   },
   {
     "country": "Argentina",
     "img": "/images/champions-national-teams/argentina-86.webp",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     "titles": [1978, 1986],
-    "edition": 1986
+    "edition": 1986,
+    "gender": "female"
   },
   {
     "country": "Alemanha",
     "img": "/images/champions-national-teams/germany-90.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     "titles": [1954, 1974, 1990],
-    "edition": 1990
+    "edition": 1990,
+    "gender": "female"
   },
   {
     "country": "Brasil",
     "img": "/images/champions-national-teams/brazil-94.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     "titles": [1958, 1962, 1970, 1994],
-    "edition": 1994
+    "edition": 1994,
+    "gender": "male"
   },
   {
     "country": "França",
     "img": "/images/champions-national-teams/france-98.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     "titles": [1],
-    "edition": 1998
+    "edition": 1998,
+    "gender": "female"
   },
   {
     "country": "Brasil",
     "img": "/images/champions-national-teams/brazil-02.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     "titles": [1958, 1962, 1970, 1994, 2002],
-    "edition": 2002
+    "edition": 2002,
+    "gender": "male"
   },
   {
     "country": "Itália",
     "img": "/images/champions-national-teams/italy-06.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     "titles": [1934, 1938, 1982, 2006],
-    "edition": 2006
+    "edition": 2006,
+    "gender": "female"
   },
   {
     "country": "Espanha",
     "img": "/images/champions-national-teams/spain-10.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     "titles": [2010],
-    "edition": 2010
+    "edition": 2010,
+    "gender": "female"
   },
   {
     "country": "Alemanha",
     "img": "/images/champions-national-teams/germany-14.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     "titles": [1954, 1974, 1990, 2014],
-    "edition": 2014
+    "edition": 2014,
+    "gender": "female"
   },
   {
     "country": "França",
     "img": "/images/champions-national-teams/france-18.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     "titles": [1998, 2018],
-    "edition": 2018
+    "edition": 2018,
+    "gender": "female"
   }
 ]

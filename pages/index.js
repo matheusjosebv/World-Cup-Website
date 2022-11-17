@@ -1,5 +1,5 @@
-import PageMain from "../container/PageMain/PageMain";
+import PageHome from "../container/PageHome/PageHome";
 
 export default function Home() {
-  return <PageMain />;
+  return <PageHome />;
 }

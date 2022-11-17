@@ -1,9 +1,9 @@
-import css from "./PageMain.module.scss";
+import css from "./PageHome.module.scss";
 import MainCard from "../../components/MainCard/MainCard";
 
 import data from "../../data/worldCupHistory.json";
 
-const PageMain = () => {
+const PageHome = () => {
   return (
     <main className={css.root}>
       <div className={css.hero} />
@@ -14,12 +14,13 @@ const PageMain = () => {
         {data.map((d, i) => (
           <div key={i}>
             <MainCard
-              title={d.country}
+              country={d.country}
               description={d.description}
               img={d.img}
               titles={d.titles}
               year={d.edition}
               reverse={i % 2 == 0 && true}
+              gender={d.gender}
             />
           </div>
         ))}
@@ -28,4 +29,4 @@ const PageMain = () => {
   );
 };
 
-export default PageMain;
+export default PageHome;

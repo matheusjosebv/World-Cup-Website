@@ -14,6 +14,121 @@ body {
   background-color: #fff;
   word-break: keep-all;
   font-family: "Inter";
+  --color1: #fff;
+  --color2: #fff;
+  --color3: #000;
+
+  &.brasil {
+    --color1: #{$brazil-primary-color};
+    --color2: #{$brazil-secondary-color};
+    --color3: #{$brazil-third-color};
+
+    .background {
+      background-image: url("../public/images/backgrounds/green-yellow-vertical.jpg");
+
+      @include media-desktopSm {
+        background-image: url("../public/images/backgrounds/brazil-vertical.jpg");
+      }
+    }
+  }
+
+  &.italia {
+    --color1: #{$italy-primary-color};
+    --color2: #{$italy-secondary-color};
+    --color3: #{$italy-third-color};
+
+    .background {
+      background-image: url("../public/images/backgrounds/-vertical.jpg");
+
+      @include media-desktopSm {
+        background-image: url("../public/images/backgrounds/-horizontal.jpg");
+      }
+    }
+  }
+
+  &.alemanha {
+    --color1: #{$germany-primary-color};
+    --color2: #{$germany-secondary-color};
+    --color3: #{$germany-third-color};
+
+    .background {
+      background-image: url("../public/images/backgrounds/-vertical.jpg");
+
+      @include media-desktopSm {
+        background-image: url("../public/images/backgrounds/-horizontal.jpg");
+      }
+    }
+  }
+
+  &.argentina {
+    --color1: #{$argentina-primary-color};
+    --color2: #{$argentina-secondary-color};
+    --color3: #{$argentina-third-color};
+
+    .background {
+      background-image: url("../public/images/backgrounds/background-argentina.jpg");
+
+      @include media-desktopSm {
+        background-image: url("../public/images/backgrounds/-horizontal.jpg");
+      }
+    }
+  }
+
+  &.franca {
+    --color1: #{$france-primary-color};
+    --color2: #{$france-secondary-color};
+    --color3: #{$france-third-color};
+
+    .background {
+      background-image: url("../public/images/backgrounds/blue-red-white-vertical.jpg");
+
+      @include media-desktopSm {
+        background-image: url("../public/images/backgrounds/blue-red-white-horizontal.jpg");
+      }
+    }
+  }
+
+  &.uruguai {
+    --color1: #{$uruguay-primary-color};
+    --color2: #{$uruguay-secondary-color};
+    --color3: #{$uruguay-third-color};
+
+    .background {
+      background-image: url("../public/images/backgrounds/uruguay-horizontal.jpeg");
+
+      @include media-desktopSm {
+        background-image: url("../public/images/backgrounds/uruguay-vertical.jpg");
+      }
+    }
+  }
+
+  &.espanha {
+    --color1: #{$spain-primary-color};
+    --color2: #{$spain-secondary-color};
+    --color3: #{$spain-third-color};
+
+    .background {
+      background-image: url("../public/images/backgrounds/-vertical.jpg");
+
+      @include media-desktopSm {
+        background-image: url("../public/images/backgrounds/-horizontal.jpg");
+      }
+    }
+  }
+
+  &.inglaterra {
+    --color1: #{$england-primary-color};
+    --color2: #{$england-secondary-color};
+    --color3: #{$england-third-color};
+
+    .background {
+      background-image: url("../public/images/backgrounds/-vertical.jpg");
+
+      @include media-desktopSm {
+        background-image: url("../public/images/backgrounds/-horizontal.jpg");
+      }
+    }
+  }
 }
 
 *,

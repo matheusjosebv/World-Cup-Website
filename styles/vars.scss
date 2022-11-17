@@ -1,21 +1,46 @@
 $white: #fff;
-$gray: #eeeeee;
+$gray: #bebebe;
+$gray-light: #f8f8f8;
 $black: #000;
-$sulu: #c5ef68;
-$shamrock: #47d2b4;
-$turquoise: #11ddc4;
-$alabaster: #f7f7f7;
 $red: rgb(255, 108, 108);
+$green: rgb(108, 255, 108);
+$blue: rgb(108, 221, 255);
+$blue-dark: rgb(108, 160, 255);
+$yellow: rgb(255, 240, 108);
+$orange: rgb(255, 191, 108);
+
+$brazil-primary-color: rgb(175, 255, 159);
+$brazil-secondary-color: rgb(252, 255, 68);
+$brazil-third-color: rgb(3, 0, 151);
+
+$italy-primary-color: rgb(204, 255, 194);
+$italy-secondary-color: rgb(0, 60, 255);
+$italy-third-color: rgb(255, 255, 255);
+
+$uruguay-primary-color: rgb(0, 199, 199);
+$uruguay-secondary-color: rgb(255, 255, 255);
+$uruguay-third-color: rgb(218, 185, 0);
+
+$germany-primary-color: rgb(199, 0, 0);
+$germany-secondary-color: rgb(251, 255, 0);
+$germany-third-color: rgb(0, 0, 0);
+
+$argentina-primary-color: rgb(0, 223, 211);
+$argentina-secondary-color: rgb(255, 255, 255);
+$argentina-third-color: rgb(218, 214, 0);
+
+$france-primary-color: rgb(65, 75, 214);
+$france-secondary-color: rgb(231, 66, 66);
+$france-third-color: rgb(255, 255, 255);
+
+$spain-primary-color: rgb(255, 0, 0);
+$spain-secondary-color: rgb(250, 246, 0);
+$spain-third-color: rgb(218, 124, 0);
+
+$england-primary-color: rgb(255, 255, 255);
+$england-secondary-color: rgb(218, 0, 0);
+$england-third-color: rgb(4, 0, 218);
 
 $breakpoint-tablet: 748px;
 $breakpoint-desktopSm: 1024px;
 $breakpoint-desktopMd: 1420px;
-
-$padding-mobile: 20px;
-
-$gt-america-light: "GT America Light";
-$gt-america-expanded-bold: "GT America Expanded Bold";
-$gt-america-expanded-medium: "GT America Expanded Medium";
-$gt-america-medium: "GT America Medium";
-
-$gradient: linear-gradient(122.79deg, $sulu 0%, $shamrock 56.88%);

@@ -1,0 +1,77 @@
+@import "../../styles/shared.scss";
+
+.root {
+  position: relative;
+  overflow: hidden;
+  min-height: 100vh;
+  background: $gray-light;
+  width: 100vw;
+
+  .cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 25px auto;
+
+    width: 100vw;
+
+    @include media-tablet {
+      width: 500px;
+    }
+    @include media-desktopSm {
+      width: 1000px;
+    }
+
+    .card {
+      margin: 15px;
+      width: 170px;
+      height: 170px;
+      background-size: 200% 100%;
+      background-position: 100%;
+      display: inline-block;
+
+      @include media-tablet {
+        width: 200px;
+        height: 200px;
+        margin: 20px;
+      }
+
+      &:hover {
+        scale: (1.1);
+        background-position: 0;
+      }
+    }
+
+    .brasil {
+      background-image: linear-gradient(to right, #3dc91a, #fbff00 50%, rgb(255, 255, 255) 50%);
+    }
+
+    .alemanha {
+      background-image: linear-gradient(to right, #f35050, #f8fc37 50%, rgb(255, 255, 255) 50%);
+    }
+
+    .italia {
+      background-image: linear-gradient(to right, #35ff3f, #ff5454 50%, rgb(255, 255, 255) 50%);
+    }
+
+    .uruguai {
+      background-image: linear-gradient(to right, #0267ff, #fff 30%, rgb(255, 255, 255) 50%);
+    }
+
+    .frança {
+      background-image: linear-gradient(to right, #6372ff, #fd5959 50%, rgb(255, 255, 255) 50%);
+    }
+
+    .argentina {
+      background-image: linear-gradient(to right, #02c4ff, #fff 30%, rgb(255, 255, 255) 50%);
+    }
+
+    .inglaterra {
+      background-image: linear-gradient(to right, #e03b3b, #fff 30%, rgb(255, 255, 255) 50%);
+    }
+
+    .espanha {
+      background-image: linear-gradient(to right, #b91f0b, #ffd000 50%, rgb(255, 255, 255) 50%);
+    }
+  }
+}
