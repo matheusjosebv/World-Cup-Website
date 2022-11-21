@@ -1,11 +1,16 @@
 import Link from "next/link";
-import { useCallback, useState } from "react";
+import { useRouter } from "next/router";
+import { useCallback, useEffect, useState } from "react";
 import HamburgerIcon from "../../components/HamburgerIcon/HamburgerIcon";
 import css from "./Navbar.module.scss";
 import Sidebar from "./Sidebar/Sidebar";
 
 const Navbar = () => {
   const [showSidebar, setShowSidebar] = useState(false);
+  const [url, setUrl] = useState("");
+  const router = useRouter();
+
+  console.log(url);
 
   const toggleSidebar = useCallback(() => {
     setShowSidebar((prev) => !prev);
@@ -15,6 +20,12 @@ const Navbar = () => {
     setShowSidebar((prev) => !prev);
   }, []);
 
+  useEffect(() => {
+    setUrl(document.location.pathname);
+
+    return () => {};
+  }, [router.asPath]);
+
   return (
     <nav id="navbar" className={css.root}>
       <div className={css.wrapper}>
@@ -22,9 +33,9 @@ const Navbar = () => {
           <div className={css.hamburgerWrapper} onClick={toggleSidebar}>
             <HamburgerIcon className={css.hamburger} resetIcon={!showSidebar && true} />
           </div>
-          <Link href="/">
+          <Link href={url}>
             <div className={css.logo}>
-              <h1>Copa do Mundo</h1>
+              <h1>{url === "/" ? "Copa do Mundo" : url.slice(1).toUpperCase()}</h1>
             </div>
           </Link>
         </div>

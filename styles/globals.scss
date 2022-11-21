@@ -24,10 +24,10 @@ body {
     --color3: #{$brazil-third-color};
 
     .background {
-      background-image: url("../public/images/backgrounds/green-yellow-vertical.jpg");
+      background-image: url("../public/images/backgrounds/brazil-vertical.jpg");
 
       @include media-desktopSm {
-        background-image: url("../public/images/backgrounds/brazil-vertical.jpg");
+        background-image: url("../public/images/backgrounds/brazil-horizontal.jpg");
       }
     }
   }
@@ -38,10 +38,10 @@ body {
     --color3: #{$italy-third-color};
 
     .background {
-      background-image: url("../public/images/backgrounds/-vertical.jpg");
+      background-image: url("../public/images/backgrounds/italy-vertical.jpg");
 
       @include media-desktopSm {
-        background-image: url("../public/images/backgrounds/-horizontal.jpg");
+        background-image: url("../public/images/backgrounds/italy-horizontal.jpg");
       }
     }
   }
@@ -52,10 +52,10 @@ body {
     --color3: #{$germany-third-color};
 
     .background {
-      background-image: url("../public/images/backgrounds/-vertical.jpg");
+      background-image: url("../public/images/backgrounds/germany-vertical.webp");
 
       @include media-desktopSm {
-        background-image: url("../public/images/backgrounds/-horizontal.jpg");
+        background-image: url("../public/images/backgrounds/germany-horizontal.jpg");
       }
     }
   }
@@ -66,10 +66,10 @@ body {
     --color3: #{$argentina-third-color};
 
     .background {
-      background-image: url("../public/images/backgrounds/background-argentina.jpg");
+      background-image: url("../public/images/backgrounds/argentina-vertical.jpg");
 
       @include media-desktopSm {
-        background-image: url("../public/images/backgrounds/-horizontal.jpg");
+        background-image: url("../public/images/backgrounds/argentina-horizontal.jpg");
       }
     }
   }
@@ -80,10 +80,10 @@ body {
     --color3: #{$france-third-color};
 
     .background {
-      background-image: url("../public/images/backgrounds/blue-red-white-vertical.jpg");
+      background-image: url("../public/images/backgrounds/france-vertical.jpg");
 
       @include media-desktopSm {
-        background-image: url("../public/images/backgrounds/blue-red-white-horizontal.jpg");
+        background-image: url("../public/images/backgrounds/france-horizontal.jpg");
       }
     }
   }
@@ -94,10 +94,10 @@ body {
     --color3: #{$uruguay-third-color};
 
     .background {
-      background-image: url("../public/images/backgrounds/uruguay-horizontal.jpeg");
+      background-image: url("../public/images/backgrounds/uruguay-vertical.jpeg");
 
       @include media-desktopSm {
-        background-image: url("../public/images/backgrounds/uruguay-vertical.jpg");
+        background-image: url("../public/images/backgrounds/uruguay-horizontal.jpg");
       }
     }
   }
@@ -108,10 +108,10 @@ body {
     --color3: #{$spain-third-color};
 
     .background {
-      background-image: url("../public/images/backgrounds/-vertical.jpg");
+      background-image: url("../public/images/backgrounds/spain-vertical.webp");
 
       @include media-desktopSm {
-        background-image: url("../public/images/backgrounds/-horizontal.jpg");
+        background-image: url("../public/images/backgrounds/spain-horizontal.jpg");
       }
     }
   }
@@ -122,10 +122,10 @@ body {
     --color3: #{$england-third-color};
 
     .background {
-      background-image: url("../public/images/backgrounds/-vertical.jpg");
+      background-image: url("../public/images/backgrounds/england-vertical.jpg");
 
       @include media-desktopSm {
-        background-image: url("../public/images/backgrounds/-horizontal.jpg");
+        background-image: url("../public/images/backgrounds/england-horizontal.jpg");
       }
     }
   }
